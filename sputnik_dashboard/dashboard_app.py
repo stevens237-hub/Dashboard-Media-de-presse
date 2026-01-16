@@ -30,7 +30,7 @@ COLORS = {
     'macron': '#ef4444',  # Rouge pour Macron/France
     'poutine': '#0ea5e9',  # Bleu pour Poutine/Russie
     'bg_primary': '#f8fafc',
-    'bg_card': '#f8fafc',
+    'bg_card': "#D8D8D8",
     'text': '#0f172a',
     'text_secondary': '#334155',
 }
@@ -813,4 +813,4 @@ def update_all_visualizations(corpus_selected, period, entity_type, top_n):
 # ============================================
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8050)
+    app.run(debug=False, host='0.0.0.0', port=8050)
